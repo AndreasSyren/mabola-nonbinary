@@ -63,7 +63,7 @@ font-size: 1em;
 }
 
 #login-form .box-inner {
-    background:#666 url("/skins/mabola-binary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
+    background:#666 url("/skins/mabola-nonbinary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
     border: 0px solid #333;
     border-radius: 0px;
     box-shadow: none;
@@ -370,7 +370,7 @@ ul.listing li {
 }
 
 .boxfooter .listbutton .inner {
-    background-image: url("/skins/mabola-binary/images/buttons.png");
+    background-image: url("/skins/mabola-nonbinary/images/buttons.png");
 }
 
 .records-table.focus tr.selected td, .records-table tr.selected td {
