@@ -70,8 +70,13 @@ font-size: 1em;
 }
 
 #login-form .box-inner {
+<<<<<<< HEAD
     background:#FFFFFF url("/skins/mabola-nonbinary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
     border: 0px solid #FFFFFF;
+=======
+    background:#666 url("/skins/mabola-nonbinary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
+    border: 0px solid #333;
+>>>>>>> 9fc5f6cdb666b24f77885d6c4351e5bde6e3c8fd
     border-radius: 0px;
     box-shadow: none;
     margin: 0 50px;
