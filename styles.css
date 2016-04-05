@@ -30,10 +30,17 @@
   font-weight: normal;
   font-style: normal;
 }
-
+/**
+Colors used:
+$purple: #945DA1;
+$yellow: #FFF77B;
+$light_yellow: #FFFFDB;
+$dark_blue: #000026;
+$white: #FFFFFF:
+*/
 body {
-    background: #f5f5f5 none no-repeat scroll center top;
-    color: #212121;
+    background: #FFFFDB none no-repeat scroll center top;
+    color: #000026;
     font-family: "RobotoDraft","Roboto",sans-serif;
 }
 
@@ -43,7 +50,7 @@ body {
 
 #header {
 min-height:115px;
-background:#fff;
+background:#FFFFFF;
 box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.12);
 }
 .minimal #header {min-height:105px;}
@@ -63,8 +70,8 @@ font-size: 1em;
 }
 
 #login-form .box-inner {
-    background:#666 url("/skins/mabola-nonbinary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
-    border: 0px solid #333;
+    background:#FFFFFF url("/skins/mabola-nonbinary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
+    border: 0px solid #FFFFFF;
     border-radius: 0px;
     box-shadow: none;
     margin: 0 50px;
@@ -73,7 +80,7 @@ font-size: 1em;
 }
 
 #login-form td.title {
-    color: #eee;
+    color: #FFFFFF;
     text-align: right;
     text-shadow: none;
     white-space: nowrap;
@@ -81,7 +88,7 @@ font-size: 1em;
 
 #login-form input[type="text"], #login-form input[type="password"] {
     border-color: transparent;
-    color: #fff
+    color: #FFFFFF;
 }
 
 #login-form .box-bottom {
@@ -99,14 +106,14 @@ font-size: 1em;
 }
 
 #topline {
-    background: #971814 none repeat scroll 0 0;
+    background: #000026 none repeat scroll 0 0;
     border-bottom: 0px solid #eee;
     color: #fff;
 }
 
 
 .minimal #topline {
-    background-color: #d14836;
+    background-color: #945DA1;
 }
 
 .minimal #taskbar .button-inner {
@@ -318,7 +325,7 @@ input[type="text"], input[type="password"], textarea, select {
 }
 
 .listbox .listitem.selected, .listbox .tablink.selected, .listbox .listitem.selected > a, .listbox .tablink.selected > a, .listing tbody tr.selected td, .listing li.selected, .listing li.selected > a {
-    background-color: #d14836;
+    background-color: #945DA1;
     background-image: -moz-linear-gradient(center top , #dd4b39, #d14836);
     color: #fff;
     font-weight: bold;
@@ -477,7 +484,7 @@ input.button.mainaction:hover {
 
 .minimal #taskbar a.button-selected,
 #taskbar a.button-selected {
-    border-bottom: 2px solid #2FD167;
+    border-bottom: 2px solid #FFF77B;
     color: #fff;
 }
 
@@ -493,7 +500,7 @@ input.button.mainaction:hover {
 .minimal #taskbar a,
 #taskbar a {
     display: inline-block;
-   color: #FFB1AF;
+   color: #FFFFDB;
    display: inline-block;
     height: 26px;
     padding: 0 6px 6px;
@@ -507,8 +514,8 @@ input.button.mainaction:hover {
 
 .toolbar a.button:focus {
     border-radius: 0;
-    background-color: #d14836;
-    background-image: -moz-linear-gradient(center top , #dd4b39, #d14836);
+    background-color: #945DA1;
+    background-image: -moz-linear-gradient(center top , #945DA1, #945DA5);
     text-shadow: none;
 
 }
@@ -857,7 +864,7 @@ a.button span.icon, .boxpagenav a.icon, .pagenav a.button span.inner {
 }
 
 #messagestack div.error {
-        color: #B10C08;
+        color: #945DA1;
 }
 
 #messagestack div.error:after {
@@ -873,5 +880,5 @@ a.button span.icon, .boxpagenav a.icon, .pagenav a.button span.inner {
 }
 
 #messagestack div.confirmation {
-        color: #0B4D25;
+        color: #FFF77B;
 }
