@@ -721,33 +721,21 @@ ul.proplist li, table.propform td {
 input[type="text"], input[type="password"], textarea, select,
 #quickaddinput, #quicksearchbox
 {
-    background-color: rgba(0, 0, 0, 0);
-    background-image: linear-gradient(#009688, #009688), linear-gradient(#d2d2d2, #d2d2d2);
-    background-position: center bottom, center calc(100% - 1px);
-    background-repeat: no-repeat;
-    background-size: 0 2px, 100% 1px;
-    border-radius: 0;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    box-shadow: none;
+    padding: 7px 0;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
     float: none;
-    transition: background 0s ease-out 0s;
+    color: #000;
     font-size: 14px;
     height: auto !important;
     line-height: 1.42857;
-    padding: 7px 0;
 }
 
 input[type="text"]:focus, input[type="password"]:focus, input.button:focus, textarea:focus, select:focus,
 #quickaddinput:focus
  {
-    background-image: linear-gradient(#009688, #009688), linear-gradient(#d2d2d2, #d2d2d2);
-    background-size: 100% 2px, 100% 1px;
-    box-shadow: none !important;
-    outline: medium none;
-    transition-duration: 0.3s;
-    border-color: transparent !important;
+   border: solid 1px #707070;
+   box-shadow: 0 0 5px 1px #969696;
 }
 
 .headers-table td.header, .ui-dialog-content.popup span.adr {
