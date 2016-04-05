@@ -70,8 +70,8 @@ font-size: 1em;
 }
 
 #login-form .box-inner {
-    background:#FFFFFF url("/skins/mabola-nonbinary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
-    border: 0px solid #FFFFFF;
+    background:#eee url("/skins/mabola-nonbinary/images/logo-medium-nonbinary.jpg") no-repeat scroll center 14px;
+    border: 1px solid #945DA1;
     border-radius: 0px;
     box-shadow: none;
     margin: 0 50px;
@@ -80,15 +80,14 @@ font-size: 1em;
 }
 
 #login-form td.title {
-    color: #FFFFFF;
+    color: #000026;
     text-align: right;
     text-shadow: none;
     white-space: nowrap;
 }
 
 #login-form input[type="text"], #login-form input[type="password"] {
-    border-color: transparent;
-    color: #FFFFFF;
+    color: #000026;
 }
 
 #login-form .box-bottom {
@@ -100,7 +99,7 @@ font-size: 1em;
 #login-form {
     padding-top:200px;
     padding-bottom: 100px;
-    margin: 0 auto 2ex;
+    margin: 0 auto 2px;
     position: relative;
     width: 580px;
 }
@@ -722,10 +721,9 @@ input[type="text"], input[type="password"], textarea, select,
 #quickaddinput, #quicksearchbox
 {
     padding: 7px 0;
-    border: solid 1px #dcdcdc;
-    transition: box-shadow 0.3s, border 0.3s;
+    border: solid 1px #945DA1;
+    transition: box-shadow 0.5s, border 0.5s;
     float: none;
-    color: #000;
     font-size: 14px;
     height: auto !important;
     line-height: 1.42857;
@@ -734,7 +732,7 @@ input[type="text"], input[type="password"], textarea, select,
 input[type="text"]:focus, input[type="password"]:focus, input.button:focus, textarea:focus, select:focus,
 #quickaddinput:focus
  {
-   border: solid 1px #707070;
+   border: solid 1px #945DA1;
    box-shadow: 0 0 5px 1px #969696;
 }
 
